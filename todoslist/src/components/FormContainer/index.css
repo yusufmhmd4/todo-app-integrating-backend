@@ -1,0 +1,15 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 2px;
+    margin-bottom: 20px;
+  }
+  .label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(94, 78, 78);
+  }
+  

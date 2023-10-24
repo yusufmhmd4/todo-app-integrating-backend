@@ -1,0 +1,16 @@
+.tab-item {
+    background: transparent;
+    border: 1px solid #bfbfbf;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+  }
+  .active {
+    background-color: rgb(142, 142, 228);
+    color: #fff;
+  }
+  

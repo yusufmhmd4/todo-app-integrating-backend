@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.todos-container {
+  padding: 10px;
+  width: 100%;
+  max-width: 900px;
+}
+.todos-heading {
+  font-family: Roboto;
+  font-size: 26px;
+  text-align: center;
+  color: rgb(56, 45, 45);
+  margin-bottom: 30px;
+}
+
+.list-container {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.tabs-container {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 500px;
+}
